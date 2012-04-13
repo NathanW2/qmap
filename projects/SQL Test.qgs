@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>371834.815833</xmin>
-            <ymin>6850364.971561</ymin>
-            <xmax>444476.897770</xmax>
-            <ymax>6909615.252180</ymax>
+            <xmin>405716.439515</xmin>
+            <ymin>6878071.127070</ymin>
+            <xmax>406647.048654</xmax>
+            <ymax>6878701.685263</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -34,11 +34,24 @@
                 <legendlayerfile isInOverview="0" layerid="ProofConcept20120404112950250" visible="1"/>
             </filegroup>
         </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Warwick" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Warwick20120413151813302" visible="1"/>
+            </filegroup>
+        </legendlayer>
     </legend>
     <Composer title="Composer 1" visible="0">
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
     <Composer title="Composer 2" visible="0">
+        <ComposerLabel valign="32" labelText="Quantum GIS" halign="1" margin="1">
+            <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="24.6" x="104.3470031545741" y="20.36803364879075" rotation="0" height="7.1" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.191275167785235" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
         <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" titleFont="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" groupFont="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" layerFont="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0">
             <Model autoUpdate="1">
                 <LayerItem layerId="ProofConcept20120404093740445" text="ProofConcept">
@@ -89,23 +102,16 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="Warwick20120413151813302" text="Warwick"/>
             </Model>
-            <ComposerItem width="4" x="189.5793901156677" y="54.5236593059937" rotation="0" height="30.5" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.191275167785235" id="" positionLock="false">
+            <ComposerItem width="4" x="189.5793901156677" y="54.5236593059937" rotation="0" height="32.5" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.191275167785235" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
-        <ComposerLabel valign="32" labelText="Quantum GIS" halign="1" margin="1">
-            <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
-            <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="24.6" x="104.3470031545741" y="20.36803364879075" rotation="0" height="7.1" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.191275167785235" id="" positionLock="false">
-                <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            </ComposerItem>
-        </ComposerLabel>
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="2">
+    <projectlayers layercount="3">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ProofConcept20120404112644330</id>
             <datasource>dbname='SpatialSlave1' host=SD0407 estimatedmetadata=true srid=28356 type=POINT table="dbo"."ProofConcept" (SP_GEOMETRY) sql=</datasource>
@@ -346,6 +352,64 @@
             <editforminit></editforminit>
             <annotationform>../../..</annotationform>
             <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Warwick20120413151813302</id>
+            <datasource>M:/BaseMaps/Orthophotos/Warwick.ecw</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Warwick</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>2450</srsid>
+                    <srid>28356</srid>
+                    <authid>EPSG:28356</authid>
+                    <description>GDA94 / MGA zone 56</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Band 1</mRedBandName>
+                <mGreenBandName>Band 2</mGreenBandName>
+                <mBlueBandName>Band 3</mBlueBandName>
+                <mGrayBandName>Not Set</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
         </maplayer>
     </projectlayers>
     <properties>
