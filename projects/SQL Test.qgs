@@ -39,9 +39,9 @@
                 <legendlayerfile isInOverview="0" layerid="Property20120416161457151" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Warwick" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Warwick" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Warwick20120413151813302" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="Warwick20120413151813302" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
@@ -449,9 +449,9 @@
                 <edittype type="0" name="land_no"/>
                 <edittype type="0" name="property_no"/>
             </edittypes>
-            <editform></editform>
+            <editform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
