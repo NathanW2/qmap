@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>399400.254702</xmin>
-            <ymin>6876815.247188</ymin>
-            <xmax>408243.459902</xmax>
-            <ymax>6878673.681906</ymax>
+            <xmin>405860.129051</xmin>
+            <ymin>6878330.989182</ymin>
+            <xmax>406341.985668</xmax>
+            <ymax>6878723.132858</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -287,9 +287,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>../../..</editform>
+            <editform>./../../..</editform>
             <editforminit></editforminit>
-            <annotationform>../../..</annotationform>
+            <annotationform>./../../..</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -413,9 +413,9 @@
                 <edittype type="0" name="TextField"/>
                 <edittype type="0" name="UniqueID"/>
             </edittypes>
-            <editform>../../..</editform>
+            <editform>./../../..</editform>
             <editforminit></editforminit>
-            <annotationform>../../..</annotationform>
+            <annotationform>./../../..</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -493,9 +493,9 @@
                 <edittype type="0" name="land_no"/>
                 <edittype type="0" name="property_no"/>
             </edittypes>
-            <editform>.</editform>
+            <editform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
+            <annotationform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
@@ -618,14 +618,14 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>.</editform>
+            <editform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
+            <annotationform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>waterjobs20120419153912081</id>
-            <datasource>../../../../waterjobs.shp</datasource>
+            <datasource>./../../../../waterjobs.shp</datasource>
             <title></title>
             <abstract></abstract>
             <layername>waterjobs</layername>
@@ -661,7 +661,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield></displayfield>
+            <displayfield>id</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -683,9 +683,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</annotationform>
             <attributeactions/>
         </maplayer>
     </projectlayers>
