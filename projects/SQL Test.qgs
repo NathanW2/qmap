@@ -46,7 +46,7 @@
             <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=POLYGON table="dbo"."Cadastre" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Cadastre</layername>
+            <layername>Cadastre (Close)</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
