@@ -4,12 +4,12 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>405860.129051</xmin>
-            <ymin>6878330.989182</ymin>
-            <xmax>406341.985668</xmax>
-            <ymax>6878723.132858</ymax>
+            <xmin>404198.827669</xmin>
+            <ymin>6877584.025275</ymin>
+            <xmax>407399.926895</xmax>
+            <ymax>6879647.384415</ymax>
         </extent>
-        <projections>1</projections>
+        <projections>0</projections>
         <destinationsrs>
             <spatialrefsys>
                 <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -24,420 +24,43 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="waterjobs" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="WaterJobs" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="waterjobs20120419153912081" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="WaterJobs20120502103500954" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="WaterMains" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="WaterMains20120419082234604" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ProofConcept" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="ProofConcept20120404112644330" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ProofConcept" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="ProofConcept20120404112950250" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Property" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Damien Water Job" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Property20120416161457151" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="WaterJobs20120502103658234" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Warwick" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Cadastre" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Warwick20120413151813302" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Cadastre20120502103501173" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="Composer 1" visible="0">
-        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
-    </Composer>
-    <Composer title="Composer 2" visible="0">
-        <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" titleFont="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" groupFont="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" layerFont="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0">
-            <Model autoUpdate="1">
-                <LayerItem layerId="ProofConcept20120404093740445" text="ProofConcept">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="108,79,165,255"/>
-                                    <prop k="color_border" v="0,0,0,255"/>
-                                    <prop k="name" v="circle"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
-                <LayerItem layerId="ProofConcept20120404112644330" text="ProofConcept">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="83,158,134,255"/>
-                                    <prop k="color_border" v="0,0,0,255"/>
-                                    <prop k="name" v="circle"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
-                <LayerItem layerId="ProofConcept20120404112950250" text="ProofConcept">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="77,158,104,255"/>
-                                    <prop k="color_border" v="0,0,0,255"/>
-                                    <prop k="name" v="circle"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
-                <LayerItem layerId="Warwick20120413151813302" text="Warwick"/>
-                <LayerItem layerId="Property20120416161457151" text="Property">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="214,205,104,255"/>
-                                    <prop k="color_border" v="0,0,0,255"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="style" v="solid"/>
-                                    <prop k="style_border" v="solid"/>
-                                    <prop k="width_border" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
-                <LayerItem layerId="WaterMains20120419082234604" text="WaterMains">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="classificationSymbol">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="square"/>
-                                    <prop k="color" v="214,205,104,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="bevel"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="solid"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
-                <LayerItem layerId="waterjobs20120419153912081" text="waterjobs">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="214,205,104,255"/>
-                                    <prop k="color_border" v="0,0,0,255"/>
-                                    <prop k="name" v="circle"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
-            </Model>
-            <ComposerItem width="4" x="189.5793901156677" y="54.5236593059937" rotation="0" height="61" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.191275167785235" id="" positionLock="false">
-                <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            </ComposerItem>
-        </ComposerLegend>
-        <ComposerLabel valign="32" labelText="Quantum GIS" halign="1" margin="1">
-            <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
-            <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="24.6" x="104.3470031545741" y="20.36803364879075" rotation="0" height="7.1" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.191275167785235" id="" positionLock="false">
-                <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            </ComposerItem>
-        </ComposerLabel>
-        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
-    </Composer>
-    <projectlayers layercount="6">
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>ProofConcept20120404112644330</id>
-            <datasource>dbname='SpatialSlave1' host=SD0407 estimatedmetadata=true srid=28356 type=POINT table="dbo"."ProofConcept" (SP_GEOMETRY) sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>ProofConcept</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>2450</srsid>
-                    <srid>28356</srid>
-                    <authid>EPSG:28356</authid>
-                    <description>GDA94 / MGA zone 56</description>
-                    <projectionacronym>utm</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="System">mssql</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="83,158,134,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="circle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties>
-                <property key="labeling" value="pal"/>
-                <property key="labeling/addDirectionSymbol" value="false"/>
-                <property key="labeling/bufferColorB" value="255"/>
-                <property key="labeling/bufferColorG" value="255"/>
-                <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/dataDefinedProperty0" value=""/>
-                <property key="labeling/dataDefinedProperty1" value=""/>
-                <property key="labeling/dataDefinedProperty10" value=""/>
-                <property key="labeling/dataDefinedProperty11" value=""/>
-                <property key="labeling/dataDefinedProperty12" value=""/>
-                <property key="labeling/dataDefinedProperty13" value=""/>
-                <property key="labeling/dataDefinedProperty14" value=""/>
-                <property key="labeling/dataDefinedProperty2" value=""/>
-                <property key="labeling/dataDefinedProperty3" value=""/>
-                <property key="labeling/dataDefinedProperty4" value=""/>
-                <property key="labeling/dataDefinedProperty5" value=""/>
-                <property key="labeling/dataDefinedProperty6" value=""/>
-                <property key="labeling/dataDefinedProperty7" value=""/>
-                <property key="labeling/dataDefinedProperty8" value=""/>
-                <property key="labeling/dataDefinedProperty9" value=""/>
-                <property key="labeling/decimals" value="0"/>
-                <property key="labeling/dist" value="0"/>
-                <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="true"/>
-                <property key="labeling/fieldName" value="UniqueID"/>
-                <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
-                <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontSize" value="8.25"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
-                <property key="labeling/fontStrikeout" value="false"/>
-                <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
-                <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="false"/>
-                <property key="labeling/labelPerPart" value="false"/>
-                <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/obstacle" value="true"/>
-                <property key="labeling/placement" value="0"/>
-                <property key="labeling/placementFlags" value="0"/>
-                <property key="labeling/plussign" value="true"/>
-                <property key="labeling/priority" value="5"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/wrapChar" value=""/>
-            </customproperties>
-            <displayfield>SpatialID</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="MS Shell Dlg 2"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <editform>./../../..</editform>
-            <editforminit></editforminit>
-            <annotationform>./../../..</annotationform>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>ProofConcept20120404112950250</id>
-            <datasource>dbname='SpatialMaster' host=localhost estimatedmetadata=true srid=28356 type=POINT table="dbo"."ProofConcept" (SP_GEOMETRY) sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>ProofConcept</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>2450</srsid>
-                    <srid>28356</srid>
-                    <authid>EPSG:28356</authid>
-                    <description>GDA94 / MGA zone 56</description>
-                    <projectionacronym>utm</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="System">mssql</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="255,0,4,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="circle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="6"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties>
-                <property key="labeling" value="pal"/>
-                <property key="labeling/addDirectionSymbol" value="false"/>
-                <property key="labeling/bufferColorB" value="255"/>
-                <property key="labeling/bufferColorG" value="255"/>
-                <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/dataDefinedProperty0" value=""/>
-                <property key="labeling/dataDefinedProperty1" value=""/>
-                <property key="labeling/dataDefinedProperty10" value=""/>
-                <property key="labeling/dataDefinedProperty11" value=""/>
-                <property key="labeling/dataDefinedProperty12" value=""/>
-                <property key="labeling/dataDefinedProperty13" value=""/>
-                <property key="labeling/dataDefinedProperty14" value=""/>
-                <property key="labeling/dataDefinedProperty2" value=""/>
-                <property key="labeling/dataDefinedProperty3" value=""/>
-                <property key="labeling/dataDefinedProperty4" value=""/>
-                <property key="labeling/dataDefinedProperty5" value=""/>
-                <property key="labeling/dataDefinedProperty6" value=""/>
-                <property key="labeling/dataDefinedProperty7" value=""/>
-                <property key="labeling/dataDefinedProperty8" value=""/>
-                <property key="labeling/dataDefinedProperty9" value=""/>
-                <property key="labeling/decimals" value="0"/>
-                <property key="labeling/dist" value="5"/>
-                <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="true"/>
-                <property key="labeling/fieldName" value="UniqueID"/>
-                <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
-                <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontSize" value="8.25"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
-                <property key="labeling/fontStrikeout" value="false"/>
-                <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
-                <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="false"/>
-                <property key="labeling/labelPerPart" value="false"/>
-                <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/obstacle" value="true"/>
-                <property key="labeling/placement" value="0"/>
-                <property key="labeling/placementFlags" value="0"/>
-                <property key="labeling/plussign" value="true"/>
-                <property key="labeling/priority" value="5"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
-                <property key="labeling/textColorB" value="63"/>
-                <property key="labeling/textColorG" value="140"/>
-                <property key="labeling/textColorR" value="48"/>
-                <property key="labeling/wrapChar" value=""/>
-            </customproperties>
-            <displayfield>SpatialID</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="MS Shell Dlg 2"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <edittypes>
-                <edittype type="0" name="CheckBoxField"/>
-                <edittype type="0" name="ComboField"/>
-                <edittype type="0" name="DateField"/>
-                <edittype type="0" name="DateTimeField"/>
-                <edittype type="0" name="DecimalField"/>
-                <edittype type="0" name="NumberField"/>
-                <edittype type="0" name="SpatialID"/>
-                <edittype type="0" name="TextField"/>
-                <edittype type="0" name="UniqueID"/>
-            </edittypes>
-            <editform>./../../..</editform>
-            <editforminit></editforminit>
-            <annotationform>./../../..</annotationform>
-            <attributeactions/>
-        </maplayer>
+    <projectlayers layercount="3">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>Property20120416161457151</id>
-            <datasource>M:/BaseMaps/Property.TAB</datasource>
+            <id>Cadastre20120502103501173</id>
+            <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=POLYGON table="dbo"."Cadastre" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Property</layername>
+            <layername>Cadastre</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,-0,-0,-0,0 +units=m +no_defs</proj4>
-                    <srsid>100005</srsid>
-                    <srid>0</srid>
-                    <authid>USER:100005</authid>
-                    <description> * Generated CRS (+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,-0,-0,-0,0 +units=m +no_defs)</description>
+                    <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>2450</srsid>
+                    <srid>28356</srid>
+                    <authid>EPSG:28356</authid>
+                    <description>GDA94 / MGA zone 56</description>
                     <projectionacronym>utm</projectionacronym>
                     <ellipsoidacronym>GRS80</ellipsoidacronym>
                     <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="System">ogr</provider>
+            <provider encoding="System">mssql</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -456,7 +79,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>land_no</displayfield>
+            <displayfield>ogr_fid</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -479,89 +102,24 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="Area_sqm"/>
-                <edittype type="0" name="Calc_area"/>
-                <edittype type="0" name="CouncilProperty"/>
-                <edittype type="0" name="LandUseChargeDescription"/>
-                <edittype type="0" name="LandUseCode"/>
-                <edittype type="0" name="Lot_num"/>
-                <edittype type="0" name="Lot_plan"/>
-                <edittype type="0" name="Parcel_ID"/>
-                <edittype type="0" name="Plan_num"/>
-                <edittype type="0" name="Segment_ID"/>
-                <edittype type="0" name="Tenure"/>
-                <edittype type="0" name="land_no"/>
-                <edittype type="0" name="property_no"/>
+                <edittype type="0" name="area_ha"/>
+                <edittype type="0" name="calc_area"/>
+                <edittype type="0" name="lot_num"/>
+                <edittype type="0" name="ogr_fid"/>
+                <edittype type="0" name="plan_num"/>
+                <edittype type="0" name="tenure"/>
             </edittypes>
-            <editform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>Warwick20120413151813302</id>
-            <datasource>M:/BaseMaps/Orthophotos/Warwick.ecw</datasource>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>WaterJobs20120502103500954</id>
+            <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=POINT table="dbo"."WaterJobs" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Warwick</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>2450</srsid>
-                    <srid>28356</srid>
-                    <authid>EPSG:28356</authid>
-                    <description>GDA94 / MGA zone 56</description>
-                    <projectionacronym>utm</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterproperties>
-                <mDrawingStyle>MultiBandColor</mDrawingStyle>
-                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
-                <mInvertColor boolean="false"/>
-                <mRedBandName>Band 1</mRedBandName>
-                <mGreenBandName>Band 2</mGreenBandName>
-                <mBlueBandName>Band 3</mBlueBandName>
-                <mGrayBandName>Not Set</mGrayBandName>
-                <mStandardDeviations>0</mStandardDeviations>
-                <mUserDefinedRGBMinimumMaximum boolean="false"/>
-                <mRGBMinimumMaximumEstimated boolean="true"/>
-                <mUserDefinedGrayMinimumMaximum boolean="false"/>
-                <mGrayMinimumMaximumEstimated boolean="true"/>
-                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
-                <contrastEnhancementMinMaxValues>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
-                <singleValuePixelList>
-                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
-                </singleValuePixelList>
-                <threeValuePixelList>
-                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
-                </threeValuePixelList>
-            </rasterproperties>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>WaterMains20120419082234604</id>
-            <datasource>dbname='SpatialSlave1' host=SD0407 estimatedmetadata=true srid=28356 type=LINESTRING table="dbo"."WaterMains" (SP_GEOMETRY) sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>WaterMains</layername>
+            <layername>WaterJobs</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -579,16 +137,14 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="214,205,104,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="104,139,99,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="2"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -596,7 +152,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>Description</displayfield>
+            <displayfield>HydrantReplaceLid</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -618,17 +174,17 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>waterjobs20120419153912081</id>
-            <datasource>./../../../../waterjobs.shp</datasource>
+            <id>WaterJobs20120502103658234</id>
+            <datasource>dbname='FieldData' host=SD0407 estimatedmetadata=true srid=28356 type=POINT table="dbo"."WaterJobs" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>waterjobs</layername>
+            <layername>Damien Water Job</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -642,7 +198,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">mssql</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -653,7 +209,7 @@
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="circle"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="6"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -661,7 +217,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>id</displayfield>
+            <displayfield>HydrantReplaceLid</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -683,25 +239,103 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</editform>
+            <edittypes>
+                <edittype type="0" name="AdditionalLocationDetails"/>
+                <edittype type="0" name="AssetinformationGroup"/>
+                <edittype type="0" name="BackfillsCleanups"/>
+                <edittype type="0" name="CompletionTime"/>
+                <edittype type="0" name="ConnectionsInterrupted"/>
+                <edittype type="0" name="ConsumerContacted"/>
+                <edittype type="0" name="ConsumerProblem"/>
+                <edittype type="0" name="CouncilFacility"/>
+                <edittype type="0" name="CustomerRequestNumber"/>
+                <edittype type="0" name="DateTimeReceived"/>
+                <edittype type="0" name="Designation"/>
+                <edittype type="0" name="DisconnectService"/>
+                <edittype type="0" name="Drawing"/>
+                <edittype type="0" name="ExistingMeterNumber"/>
+                <edittype type="0" name="ExistingMeterReadingKL"/>
+                <edittype type="0" name="FailureType"/>
+                <edittype type="0" name="FireService"/>
+                <edittype type="0" name="FollowUpWorkRequired"/>
+                <edittype type="0" name="GroundConditions"/>
+                <edittype type="0" name="HydrantCleanAndMark"/>
+                <edittype type="0" name="HydrantFlowTest"/>
+                <edittype type="0" name="HydrantRepair"/>
+                <edittype type="0" name="HydrantReplace"/>
+                <edittype type="0" name="HydrantReplaceLid"/>
+                <edittype type="0" name="InstallationSheetNumber"/>
+                <edittype type="0" name="InstallationsAndMeterReadsGroup"/>
+                <edittype type="0" name="InterruptionDurationHours"/>
+                <edittype type="0" name="Investigate"/>
+                <edittype type="0" name="JobID"/>
+                <edittype type="0" name="JointType"/>
+                <edittype type="0" name="LitresPerMinute"/>
+                <edittype type="0" name="LockupKpa"/>
+                <edittype type="0" name="MainRepairedClamp"/>
+                <edittype type="0" name="MainRepairedReplacedSection"/>
+                <edittype type="0" name="MainsAndFittingsGroup"/>
+                <edittype type="0" name="MainsFlushed"/>
+                <edittype type="0" name="MainsValveRepair"/>
+                <edittype type="0" name="MainsValveReplace"/>
+                <edittype type="0" name="MeterCover"/>
+                <edittype type="0" name="MeterRead"/>
+                <edittype type="0" name="MeterRemoved"/>
+                <edittype type="0" name="MeterReplaced"/>
+                <edittype type="0" name="NewMeterNumber"/>
+                <edittype type="0" name="NewMeterReadingKL"/>
+                <edittype type="0" name="NewService"/>
+                <edittype type="0" name="Notes"/>
+                <edittype type="0" name="Operators"/>
+                <edittype type="0" name="Other"/>
+                <edittype type="0" name="OtherGroup"/>
+                <edittype type="0" name="PipeDepth"/>
+                <edittype type="0" name="PipeDiameter"/>
+                <edittype type="0" name="PipeMaterial"/>
+                <edittype type="0" name="PressureAndFlowGroup"/>
+                <edittype type="0" name="PressureTestHydrant"/>
+                <edittype type="0" name="PressureTestService"/>
+                <edittype type="0" name="ProvideLocation"/>
+                <edittype type="0" name="RelayedService"/>
+                <edittype type="0" name="RepairedServiceClamp"/>
+                <edittype type="0" name="RepairedServiceReplaceSection"/>
+                <edittype type="0" name="RepairedStopCock"/>
+                <edittype type="0" name="ReplaceLidValve"/>
+                <edittype type="0" name="ReplaceMarkers"/>
+                <edittype type="0" name="ReplacedStopCock"/>
+                <edittype type="0" name="RequestType"/>
+                <edittype type="0" name="RequestedBy"/>
+                <edittype type="0" name="RespondTime"/>
+                <edittype type="0" name="Scheme"/>
+                <edittype type="0" name="ServiceFlowTest"/>
+                <edittype type="0" name="ServiceRepairsGroup"/>
+                <edittype type="0" name="ShutdownDoorknock"/>
+                <edittype type="0" name="ShutdownLetter"/>
+                <edittype type="0" name="SignageAlterations"/>
+                <edittype type="0" name="Street"/>
+                <edittype type="0" name="StreetNumber"/>
+                <edittype type="0" name="TestSheetCompleted"/>
+                <edittype type="0" name="TpfnrCapped"/>
+                <edittype type="0" name="TpfnrRepaired"/>
+                <edittype type="0" name="TpfnrReplaced"/>
+                <edittype type="0" name="TrafficControlPlanUsed"/>
+                <edittype type="0" name="UniqueID"/>
+                <edittype type="0" name="ValveClosingDirection"/>
+                <edittype type="0" name="ValveStatus"/>
+                <edittype type="0" name="ValveType"/>
+                <edittype type="0" name="WaterSample"/>
+                <edittype type="0" name="WorkDurationHours"/>
+                <edittype type="0" name="WorkMethodStatement"/>
+            </edittypes>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>C:/Documents and Settings/woodrown/Desktop/Coding/SDRCDataCapture/projects</annotationform>
+            <annotationform></annotationform>
             <attributeactions/>
         </maplayer>
     </projectlayers>
     <properties>
-        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-        <WMSOnlineResource type="QString"></WMSOnlineResource>
-        <WMSContactPerson type="QString"></WMSContactPerson>
-        <Identify>
-            <disabledLayers type="QStringList"/>
-        </Identify>
-        <WMSContactPhone type="QString"></WMSContactPhone>
         <SpatialRefSys>
-            <ProjectCRSProj4String type="QString">+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
             <ProjectCrs type="QString">EPSG:28356</ProjectCrs>
-            <ProjectCRSID type="int">2450</ProjectCRSID>
-            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
         </SpatialRefSys>
         <Paths>
             <Absolute type="bool">false</Absolute>
@@ -715,15 +349,9 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <WMSContactMail type="QString"></WMSContactMail>
-        <WFSLayers type="QStringList"/>
         <PositionPrecision>
             <DecimalPlaces type="int">2</DecimalPlaces>
             <Automatic type="bool">true</Automatic>
         </PositionPrecision>
-        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-        <WMSContactOrganization type="QString"></WMSContactOrganization>
-        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-        <WMSServiceTitle type="QString"></WMSServiceTitle>
     </properties>
 </qgis>

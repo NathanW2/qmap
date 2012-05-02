@@ -58,7 +58,7 @@
     <projectlayers layercount="6">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>RoadLabels20120501165451545</id>
-            <datasource>dbname='FieldData' host=SD0407 estimatedmetadata=true srid=28356 type=LINESTRING table="dbo"."RoadLabels" (ogr_geometry) sql=</datasource>
+            <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=LINESTRING table="dbo"."RoadLabels" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RoadLabels</layername>
@@ -175,7 +175,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>WaterJobs20120501151604824</id>
-            <datasource>dbname='FieldData' host=SD0407 estimatedmetadata=true srid=28356 type=POINT table="dbo"."WaterJobs" (ogr_geometry) sql=</datasource>
+            <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=POINT table="dbo"."WaterJobs" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Water Jobs</layername>
@@ -240,7 +240,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>WaterMains20120501151604980</id>
-            <datasource>dbname='FieldData' host=SD0407 estimatedmetadata=true srid=28356 type=LINESTRING table="dbo"."WaterMains" (ogr_geometry) sql=</datasource>
+            <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=LINESTRING table="dbo"."WaterMains" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>WaterMains</layername>
@@ -307,7 +307,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>WaterMeters20120501151605152</id>
-            <datasource>dbname='FieldData' host=SD0407 estimatedmetadata=true srid=28356 type=POINT table="dbo"."WaterMeters" (ogr_geometry) sql=</datasource>
+            <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=POINT table="dbo"."WaterMeters" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>WaterMeters</layername>
@@ -372,7 +372,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>WaterServices20120501151605277</id>
-            <datasource>dbname='FieldData' host=SD0407 estimatedmetadata=true srid=28356 type=LINESTRING table="dbo"."WaterServices" (ogr_geometry) sql=</datasource>
+            <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=LINESTRING table="dbo"."WaterServices" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>WaterServices</layername>
@@ -439,7 +439,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>cadastre20120501151605339</id>
-            <datasource>dbname='FieldData' host=SD0407 estimatedmetadata=true srid=28356 type=POLYGON table="dbo"."cadastre" (ogr_geometry) sql=</datasource>
+            <datasource>dbname='FieldData' host=SD0302 estimatedmetadata=true srid=28356 type=POLYGON table="dbo"."Cadastre" (ogr_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>cadastre</layername>
