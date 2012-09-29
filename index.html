@@ -1,92 +1,144 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <meta charset="utf-8">
+    <title>QMap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+
+      .columnA,
+      .columnB{
+        width: 500px;
+
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <title>Qmap by NathanW2</title>
   </head>
-  <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-5231515-6']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
   <body>
-    <header>
-      <div class="inner">
-        <h1>QMap</h1>
-        <h2><b>QMap<b>: A simple data collection program built using QGIS and Python.</h2>
-        <a href="https://github.com/NathanW2/qmap" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>qmap</h1>
-
-<p><b>QMap<b> is a simple data collection program built using QGIS and Python.  The program was built by Southern Downs Regional Council in order to aid in field data collection</p>
-
-<p>Although this project is written as a QGIS plugin it is designed to be run in
-   in it's own QGIS sandbox using the --config path command line option of QGIS.
-   This means that it acts like a standalone program and will store its settings
-   away from the normal QGIS install.  This is to provide a controlled QGIS
-   environment with a minimal interface.</p>
-          <div class="figure align-center">
-  <img alt="sLoading a project" src="images/Screen1.png" />
-  <p>Loading screen presents users with a simple list of projects to select from.</p>
-</div>
-
-          <div class="figure align-center">
-  <img alt="Main Screen" src="images/Screen2.png" />
-  <p>The large buttons with text aid in usability on a pen or touch based device.</p>
-</div>
-
-          <div class="figure align-center">
-  <img alt="Form" src="images/Screen3.png" />
-</div>
-<p>An example daily water job sheet with all the information that can be collected at one job site.  Forms can be built using Qt Designer and fields are filled using the name of the control, saving on configuration. Forms can be made to run full screen on the device or in a floating dialog depending on the need.</p>
-
-<div class="figure align-center">
-  <img alt="Drawing" src="images/Screen4.png" />
-</div>
-<p>Freehand drawings can be completed and attached to records.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/NathanW2/qmap/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </a>
-          <a href="https://github.com/NathanW2/qmap/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/NathanW2/qmap"></a> is maintained by <a href="https://github.com/NathanW2">NathanW2</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
+          <a class="brand" href="#">QMap</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
 
-  
+    <div id="landing">
+    <div class="inner">
+      <div class="container">
+        <div class="row">
+          <div class="span4 landing-text">
+            <h1>QMap</h1>
+            <h2>A field data collection program using QGIS</h2><br>
+            <p>QMap allows for custom forms built using Qt Designer and uses a convention based approach
+            in order to save configuration.</p>
+            <p>QMap was built by Southern Downs Regional Council in order to aid in field data collection</p><br>
+            <p><a class="btn btn-primary btn-large" href="https://github.com/NathanW2/qmap/zipball/master">
+              Get it now!
+              </a>
+            <a class="btn btn-large">Learn More</a></p>
+          </div> <!-- /landing-text -->
+          <div class="span8 landing-screenshot">
+              <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="images/Screen1.png" alt="">
+                    <div class="carousel-caption">
+                      <h4>Loading a project</h4>
+                      <p>The user is presented with a simple list of projects.
+                        Projects are just noraml QGIS .qgs projects.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/Screen2.png" alt="">
+                    <div class="carousel-caption">
+                      <h4>Full screen map and large buttons</h4>
+                      <p>The large buttons and full screen map aid in usability on a pen or touch based device.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/Screen3.png" alt="">
+                    <div class="carousel-caption">
+                      <h4>Water maintence job form</h4>
+                      <p>Forms can be as simple or as complex as needed. </p>
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+              </div>
+          </div>
+        </div> <!-- .row -->
+      </div> <!-- /container -->
+    </div> <!-- /inner -->
+  </div> <!-- /landing --> 
+
+
+    <<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>On GitHub</h2>
+          <p>QMap, like QGIS, is Open Sourced under the GPL.  It, also like QGIS, can be found on GitHub.<p>
+          <a class="btn" href="https://github.com/NathanW2/qmap"><small>View project on </small>GitHub</a>
+        </div>
+        <div class="span4">
+          <h2>Screenshots</h2>
+          <p>Like screenshots. Find some here.  </p>
+          <p><a class="btn btn-info" href="#">View screenshots &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+      <footer align="centre">
+        <p>&copy; Nathan Woodrow</p>
+      </footer>
+    </div>
   </body>
 </html>
