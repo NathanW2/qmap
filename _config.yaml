@@ -6,7 +6,7 @@ watcher:
   # because recompiling the site will cause these directories to change, which
   # will cause the site to be recompiled, which will cause these directories
   # to change, which will cause the site to be recompiled again, and so on.
-  dirs_to_watch: [ 'doc', '_layouts', 'docs'
+  dirs_to_watch: [ 'docs', '_layouts', 'docs' ]
 
   # When to send notifications (using Growl or notify-send).
   notify_on_compilation_success: true

@@ -26,3 +26,12 @@ Currently no.  Forms must be built with Qt Designer (installed with qt4-deval fr
 ### What version of QGIS do I need?
 
 For QMap to work correctly you need to be running the latest development build, sorry about that. There are a few bugs in 1.8 that I fixed in order to get QMap to run the way it should.
+
+### Is MS SQL 2008 Syncing required?
+
+Not at all. You can build the project with --with-mssyncing=False to disable SQL 2008 syncing.  We only have this because we store all our data on the clients in a local MS SQL 2008 database.  
+
+### What about syncing support for other file formats?
+
+Sorry not yet.  PostGIS and SpatiaLite syncing support would be nice to have in the future.  [GeoGit](https://github.com/opengeo/GeoGit) also looks promising but is not ready yet.
+
