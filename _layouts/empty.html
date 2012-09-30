@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>QMap - FAQ</title>
+    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -54,11 +54,10 @@
     </div>
 
     <div class="container">
-      <h3 class="text-info"><b>Why QGIS?</b></h3>
-      <p>Why not?</p>
-      <h3 class="text-info"><b>What data formats does QMap support?</b></h3>
-      <p>Anything QGIS supports QMap does as well.  QMap is just QGIS with a interface that is easier to use for field based data collection.</p>
-      <h3 class="text-info"><b>Does QMap support online or offline maps?</b></h3>
-      <p>Both. </p>
+      {{ content }}
     </div>
+
+    <footer align="center">
+        <p>&copy; Nathan Woodrow</p>
+    </footer>
   </body>
