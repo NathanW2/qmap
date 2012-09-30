@@ -7,7 +7,7 @@ title: FAQ
 
 Why not? 
 
-#### What data formats does QMap support?
+### What data formats does QMap support?
 
 Anything QGIS supports QMap does as well. QMap is just QGIS with a interface that is easier to use for field based data collection.
 
@@ -17,4 +17,12 @@ Both.  QMap is just QGIS. If you would like a fully offline system you can just 
 
 ### What about forms. Will QMap auto generate forms for me?
 
-Currently no.  Forms must be built with Qt Designer (installed with qt4-deval from OSGeo4W).
+Currently no.  Forms must be built with Qt Designer (installed with qt4-deval from OSGeo4W).  Auto forms were considered but for now having control over the layout of the forms was more important.  Auto forms could be generated using the method QGIS does if needed.  Feel free to open a issue if you think it is needed.
+
+### Y U No Support Android? 
+
+;) Hopefully once we have Python support for QGIS Android I can start working on a version for Android but for now this is really designed for Windows based tablets.  We use Motion F5Vs, but anything that runs Windows will work fine.
+
+### What version of QGIS do I need?
+
+For QMap to work correctly you need to be running the latest development build, sorry about that. There are a few bugs in 1.8 that I fixed in order to get QMap to run the way it should.
