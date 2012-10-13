@@ -10,7 +10,7 @@ import optparse
 
 ui_sources = ['src/ui_datatimerpicker', 'src/ui_listmodules',
               'src/syncing/ui_sync', 'src/ui_listfeatures', 'src/ui_errorlist',
-              'src/ui_helpviewer']
+              'src/ui_helpviewer','src/ui_camera']
 
 doc_sources = ['docs/README', 'docs/ClientSetup', 'docs/UserGuide']
 
