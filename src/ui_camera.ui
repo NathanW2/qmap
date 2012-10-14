@@ -24,6 +24,24 @@
     <number>0</number>
    </property>
    <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="margin">
+       <number>0</number>
+      </property>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <property name="spacing">
       <number>0</number>
@@ -65,122 +83,6 @@
         </size>
        </property>
       </spacer>
-     </item>
-     <item>
-      <widget class="QToolButton" name="toolMapSnapshot">
-       <property name="text">
-        <string>...</string>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>32</width>
-         <height>32</height>
-        </size>
-       </property>
-       <property name="toolButtonStyle">
-        <enum>Qt::ToolButtonTextUnderIcon</enum>
-       </property>
-       <property name="autoRaise">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QToolButton" name="toolRedPen">
-       <property name="text">
-        <string>Red</string>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>32</width>
-         <height>32</height>
-        </size>
-       </property>
-       <property name="checkable">
-        <bool>true</bool>
-       </property>
-       <property name="toolButtonStyle">
-        <enum>Qt::ToolButtonTextUnderIcon</enum>
-       </property>
-       <property name="autoRaise">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string>buttonGroup</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QToolButton" name="toolBluePen">
-       <property name="text">
-        <string>Blue</string>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>32</width>
-         <height>32</height>
-        </size>
-       </property>
-       <property name="checkable">
-        <bool>true</bool>
-       </property>
-       <property name="toolButtonStyle">
-        <enum>Qt::ToolButtonTextUnderIcon</enum>
-       </property>
-       <property name="autoRaise">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string>buttonGroup</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QToolButton" name="toolBlackPen">
-       <property name="text">
-        <string>Black</string>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>32</width>
-         <height>32</height>
-        </size>
-       </property>
-       <property name="checkable">
-        <bool>true</bool>
-       </property>
-       <property name="toolButtonStyle">
-        <enum>Qt::ToolButtonTextUnderIcon</enum>
-       </property>
-       <property name="autoRaise">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string>buttonGroup</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QToolButton" name="toolEraser">
-       <property name="text">
-        <string>...</string>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>32</width>
-         <height>32</height>
-        </size>
-       </property>
-       <property name="toolButtonStyle">
-        <enum>Qt::ToolButtonTextUnderIcon</enum>
-       </property>
-       <property name="autoRaise">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string>buttonGroup</string>
-       </attribute>
-      </widget>
      </item>
      <item>
       <spacer name="horizontalSpacer_2">
@@ -234,24 +136,6 @@
       </widget>
      </item>
     </layout>
-   </item>
-   <item>
-    <widget class="QFrame" name="frame">
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-     <property name="lineWidth">
-      <number>5</number>
-     </property>
-     <layout class="QGridLayout" name="gridLayout_2">
-      <property name="margin">
-       <number>0</number>
-      </property>
-     </layout>
-    </widget>
    </item>
   </layout>
   <action name="actionClearDrawing">
@@ -356,13 +240,22 @@
     <string>Eraser</string>
    </property>
   </action>
-  <action name="actionCapture_Image">
+  <action name="actionCaptureImage">
    <property name="icon">
     <iconset resource="resources.qrc">
      <normaloff>:/icons/camera</normaloff>:/icons/camera</iconset>
    </property>
    <property name="text">
     <string>Capture Image</string>
+   </property>
+  </action>
+  <action name="actionRecaptureImage">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/reloadcamera</normaloff>:/icons/reloadcamera</iconset>
+   </property>
+   <property name="text">
+    <string>Recapture Image</string>
    </property>
   </action>
  </widget>

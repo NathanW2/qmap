@@ -9,7 +9,7 @@ import cv
 import sys
 import os
 
-from PyQt4.QtCore import QPoint, QTimer
+from PyQt4.QtCore import QPoint, QTimer, pyqtSignal
 from PyQt4.QtGui import QApplication, QImage, QPainter, QWidget, QApplication
 
 
@@ -36,6 +36,7 @@ class IplQImage(QImage):
 
 
 class VideoWidget(QWidget):
+    mousePressed = pyqtSignal()
     """ A class for rendering video coming from OpenCV """
 
     def __init__(self, parent=None):
@@ -58,6 +59,11 @@ class VideoWidget(QWidget):
             painter = QPainter(self)
             painter.drawImage(QPoint(0, 0), self._image)
 
+    def mousePressEvent(self, event):
+        self.mousePressed.emit()
+        super(VideoWidget, self).mousePressEvent(event)
+        
+
     def queryFrame(self):
         frame = cv.QueryFrame(self._capture)
         self._image = self._build_image(frame)
@@ -75,6 +81,13 @@ class VideoWidget(QWidget):
         # Paint every 50 ms
         self._timer = QTimer(self)
         self._timer.timeout.connect(self.queryFrame)
+        self._timer.start(50)
+
+    def captureImage(self):
+        self._timer.stop()
+        self.queryFrame()
+
+    def restartCamera(self):
         self._timer.start(50)
 
     def saveImage(self, fileName, fileFormat):

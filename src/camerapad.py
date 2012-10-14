@@ -1,7 +1,9 @@
 from camera import VideoWidget
 from PyQt4.QtGui import QDialog
+from PyQt4.QtCore import Qt
 from ui_camera import Ui_CameraWindow
 import uuid
+import functools
 
 class CameraPad(QDialog):
     def __init__(self, startimage=None):
@@ -29,7 +31,23 @@ class CameraPad(QDialog):
         self.scribbleArea.setPenColor(color)
 
     def createActions(self):
-        self.ui.actionCaptureImage.triggered.connect(self.saveImage)
+        self.ui.actionCaptureImage.triggered.connect(self.captureImage)
+        self.ui.actionRecaptureImage.triggered.connect(self.reloadCamera)
+        self.ui.toolCapture.setDefaultAction(self.ui.actionCaptureImage)
+
+        self.videowidget.mousePressed.connect(self.captureImage)
+
+        # self.ui.toolMapSnapshot.setDefaultAction(self.ui.actionMapSnapshot)
+
+        self.ui.toolSave.setDefaultAction(self.ui.actionSave)
+        self.ui.toolCancel.setDefaultAction(self.ui.actionCancel)
+
+    def captureImage(self):
+        self.videowidget.captureImage()
+        self.ui.toolCapture.setDefaultAction(self.ui.actionRecaptureImage)
+
+    def reloadCamera(self):
+        self.videowidget.restartCamera()
         self.ui.toolCapture.setDefaultAction(self.ui.actionCaptureImage)
 
     def saveImage(self):

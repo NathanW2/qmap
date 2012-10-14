@@ -29,6 +29,7 @@
     <file alias="move">resources/images/move.png</file>
     <file alias="gpsadd">resources/images/addatgps.png</file>
     <file alias="camera">resources/images/camera.png</file>
+    <file alias="reloadcamera">resources/images/refresh.png</file>
   </qresource>
   <qresource prefix="syncing">
     <file alias="sync">resources/images/sync.png</file>
