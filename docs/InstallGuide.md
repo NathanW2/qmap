@@ -7,6 +7,17 @@ title: Installing QMap
 
 In order to run QMap you must first install the latest QGIS development build and the Qt development kit which includes Qt Designer
 
-See [Installing QGIS with OSGeo4W](InstallViaOSGeo4W.html) for instructions on how to install qgis-dev and qt4-devel
+#### Installing qgis-dev and qt4-devel
+
+[installer]: http://download.osgeo.org/osgeo4w/osgeo4w-setup.exe
+[site]: http://trac.osgeo.org/osgeo4w/
+
+1. Download the [OSGeo4W installer][installer] from the [OSGeo4W site][site]
+1. Run the installer and select advanced
+1. Continue until you are given the tree view of different packages
+1. Select qgis-dev from the **desktop** section
+1. Select qt4-devel from the **libs** section 
+1. Continue with install
+
 
 ### Deploying to users
