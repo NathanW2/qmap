@@ -507,7 +507,7 @@ p, li { white-space: pre-wrap; }
     </layout>
    </item>
    <item row="1" column="2">
-    <widget class="QMapImageWidget" name="qmapimagewidget">
+    <widget class="QMapImageWidget" name="photo">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
        <horstretch>0</horstretch>
